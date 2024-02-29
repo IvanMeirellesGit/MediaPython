@@ -47,7 +47,7 @@ def notaRecupera(estadoBim, media, aluno):
 
         match switch:
             case 0:
-                print('nao')
+                print(f'Aluno {aluno} reprovado!')
             case 1:
                 QtdNota = qtdNota()
 
